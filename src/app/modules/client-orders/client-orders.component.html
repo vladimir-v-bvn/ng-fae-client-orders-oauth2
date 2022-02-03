@@ -1,0 +1,19 @@
+<article id="client-orders">
+    <header class="client-orders__header">client-orders grid</header>
+      <section class="client-orders__block">
+        <div *ngFor="let clientOrder of clientOrders">
+          <div class="gridtable" >
+          <div>{{clientOrder.userId}}</div>
+          <div>{{clientOrder.userName}}</div>
+          <div>{{clientOrder.userGroup}}</div>
+          <div>{{clientOrder.eventName}}</div>
+          <div>{{clientOrder.orderId}}</div>
+          <div>{{clientOrder.amount}}</div>
+          <div>{{clientOrder.price}}</div>
+          </div>
+        </div>
+      </section>
+<!-- -->
+</article>
+  
+
